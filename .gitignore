@@ -1,0 +1,34 @@
+# Data (texts, images and audio are usually too large for GitHub)
+data/raw/
+data/interim/
+data/processed/
+
+# Model checkpoints and weights
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.joblib
+*.h5
+
+# Experiment tracking
+wandb/
+# mlruns/ # uncomment if logged artifacts become too large
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+clickbait_project/
